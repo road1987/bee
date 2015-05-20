@@ -1,1 +1,1 @@
-THIS IS THE FIREST GIT TEST FILE.
+BEE is the basic CMS project build by yii2.
