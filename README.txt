@@ -1,0 +1,1 @@
+BEE is the basic CMS project build by yii2.
