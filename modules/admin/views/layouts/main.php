@@ -17,10 +17,10 @@ AppAsset::register($this);
     <meta http-equiv="Content-Type" content="text/html; charset=<?= Yii::$app->charset ?>" />   
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?= Html::csrfMetaTags() ?>
-    <title><?= Html::encode($this->title) ?></title>
+    <title><?= Html::encode($this->title) ?>  </title>
     <!--<?php $this->head() ?>-->
-    <link rel="stylesheet" type="text/css" href='/bee/web/css/ipt.css'/>
-    <link rel="stylesheet" type="text/css" href='/bee/web/assets/admin/css/base.css'/>
+    <link rel="stylesheet" type="text/css" href='<?= Yii::getAlias('@web')?>/css/ipt.css'/>
+    <link rel="stylesheet" type="text/css" href='<?= Yii::getAlias('@web')?>/assets/admin/css/base.css'/>
 </head>
 <body>
 <?php $this->beginBody() ?>
